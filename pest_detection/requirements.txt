@@ -1,0 +1,8 @@
+gradio==3.48.0
+tensorflow==2.18.0
+numpy==1.26.4
+pillow>=10.0.0
+matplotlib>=3.8.0
+fastapi==0.103.1
+pydantic==1.10.26
+typing_extensions>=4.5.0
