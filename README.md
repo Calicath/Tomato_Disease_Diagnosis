@@ -161,5 +161,7 @@ python visualization/plot_training_curves.py
 ## 注意事项
 
 - 防治建议仅供学习与演示，实际用药请遵循当地植保规范。
-- `train.tfrecord`、`test.tfrecord` 以及 `data/` 下图片体积较大，克隆或拷贝仓库时注意磁盘空间。
+- 训练权重文件过大，未上传至仓库；可自行运行训练脚本得到模型权重，`label_mapping.json` 为类别映射配置。
+- 数据集文件夹文件过大，未上传至仓库。
+- 训练权重文件`train.tfrecord`、`test.tfrecord` 以及数据集 `data/` 下图片体积较大，克隆或拷贝仓库时注意磁盘空间。
 - 本仓库为课程/实验项目，`pest_detection/scripts/train_model.py` 为训练骨架，完整训练流程以 notebook 与已保存权重为主。
